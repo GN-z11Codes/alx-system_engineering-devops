@@ -1,7 +1,4 @@
 #!/bin/bash
 
-cd -  # Change to the previous directory
-
-# Optionally, you can print the new working directory
-echo "Current working directory: $(pwd)"
+cd - > /dev/null 2>&1
 
